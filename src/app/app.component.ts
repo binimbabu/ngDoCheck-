@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ngDoCheck';
+  user:any={
+    name:"Bini"
+  }
+  update(){
+    this.user.name = "Babu";
+  }
 }
